@@ -1,0 +1,53 @@
+{
+  "libs": [],
+  "settings": {
+    "badgeCounter": false,
+    "editorConfig": {
+      "enableBasicAutocompletion": false,
+      "enableLiveAutocompletion": true,
+      "enableSnippets": true,
+      "fontSize": 15,
+      "highlightActiveLine": false,
+      "keyboardHandler": false,
+      "showPrintMargin": false,
+      "tabSize": 2,
+      "theme": "ace/theme/dracula",
+      "useSoftTabs": true,
+      "useWorker": true,
+      "wrap": true
+    },
+    "supportBtn": true,
+    "themesFolder": [
+      "chrome",
+      "clouds",
+      "dawn",
+      "dracula",
+      "dreamweaver",
+      "eclipse",
+      "github",
+      "monokai",
+      "solarized_dark",
+      "solarized_light",
+      "textmate",
+      "tomorrow",
+      "tomorrow_night",
+      "twilight"
+    ],
+    "version": 8
+  },
+  "sites": [
+    {
+      "compiledCss": "html {display: none!important;}main[role=\"main\"], .titlebar-container {background: rgb(221, 221, 221)!important;}.full-width-row-container, #content {background: rgb(255, 255, 255)!important;}#content {padding: 30px!important;}",
+      "css": "html {\r\n  display: none;\r\n}\r\nmain[role='main'],\r\n.titlebar-container {\r\n  background: #ddd;\r\n}\r\n.full-width-row-container,\r\n#content {\r\n  background: #fff;\r\n}\r\n#content {\r\n  padding: 30px;\r\n}\r\n",
+      "id": "https://developer.mozilla.org",
+      "js": "if (location.href.includes('/en-US/')) {\r\n  document\r\n    .querySelector('html')\r\n    .style.setProperty('display', 'initial', 'important');\r\n} else {\r\n  document.title = 'Redirecting...';\r\n  const newURL = location.href.replace(/\\/[\\w-]{1,10}\\//, '/en-US/');\r\n  location.replace(newURL);\r\n}\r\n",
+      "libs": [],
+      "options": {
+        "altCSS": true,
+        "altJS": true,
+        "autoImportant": true,
+        "on": true
+      }
+    }
+  ]
+}
